@@ -1,0 +1,279 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.conteudo {
+    width: 700px;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bola_azul {
+    background: linear-gradient(
+        to right,
+        rgb(20, 80, 255),
+        rgb(50, 220, 255)
+    );
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    float: left;
+    margin-bottom: 600px;
+}
+
+.bola_laranja {
+    background: linear-gradient(
+        to right,
+        rgb(255, 80, 20),
+        rgb(255, 150, 50)
+    );
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    float: right;
+    margin-top: 600px;
+    margin-left: 300px;
+}
+
+.bloco_informacoes {
+    background-color: rgba(255, 255, 255, 0.13);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    width: 550px;
+    height: 650px;
+    border-radius: 10px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+
+.bloco_informacoes h3 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 35pt;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.label_input {
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 14pt;
+    font-family: Arial;
+    margin-left: 55px;
+    margin-top: 40px
+}
+
+#usuario {
+    display: block;
+    height: 50px;
+    width: 450px;
+    border-radius: 6px;
+    border: solid 1px rgba(50, 50, 50, 0.10);
+    background-color: rgba(255, 255, 255, 0.10);
+    margin-left: 50px;
+    margin-top: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 16pt;
+    font-family: Arial;
+}
+
+#usuario:hover {
+    background-color: rgba(200, 200, 200, 0.10);
+    border: solid 1px rgba(255, 255, 255, 0.10);
+}
+
+#usuario:focus{
+    outline: none;
+}
+
+#senha {
+    display: block;
+    height: 50px;
+    width: 450px;
+    border-radius: 6px;
+    border: solid 1px rgba(50, 50, 50, 0.10);
+    background-color: rgba(255, 255, 255, 0.10);
+    margin-left: 50px;
+    margin-top: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 16pt;
+    font-family: Arial;
+}
+
+#senha:hover {
+    background-color: rgba(200, 200, 200, 0.10);
+    border: solid 1px rgba(255, 255, 255, 0.10);
+}
+
+#senha:focus{
+    outline: none;
+}
+
+.conteudo_checkbox {
+    display: flex;
+}
+
+.label_checkbox input {
+    display: none;
+}
+
+.label_checkbox span {
+    width: 20px;
+    height: 20px;
+    display: block;
+    background-color: rgba(200, 200, 200, 0.10);
+    border: 1px solid rgb(100, 100, 100);
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.label_checkbox input:checked + span {
+    background-color: rgb(50, 200, 120);
+    background-image: url(/img/icone_checkbox.png);
+}
+
+.label_manter {
+    color: rgb(255, 255, 255);
+    font-size: 12pt;
+    font-family: Arial;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+.log_in {
+    width: 455px;
+    height: 60px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(10, 10, 10);
+    border-radius: 6px;
+    font-size: 20pt;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 50px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.log_in:hover {
+    background-color: rgb(200, 200, 200);
+}
+
+.log_in:active{
+    background-color: rgb(150, 150, 150);
+}
+
+.bloco_cadastro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bloco_cadastro p {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial;
+    margin-top: 20px;
+}
+
+.cadastro {
+    color: rgb(50, 200, 120);
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+
+.cadastro:hover {
+    color: rgb(120, 230, 170);
+}
+
+.cadastro:active {
+    color: rgb(190, 255, 200);
+}
+
+.google {
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.10);
+    color: rgb(255, 255, 255);
+    border-radius: 6px;
+    font-size: 16pt;
+    font-weight: bold;
+    font-family: Arial;
+    margin-top: 10px;
+    margin-left: 50px;
+    cursor: pointer;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 42px;
+    padding-right: 42px;
+    text-decoration: none;
+}
+
+.google:hover {
+    background-color: rgba(200, 200, 200, 0.10);
+}
+
+.google:active {
+    background-color: rgba(200, 200, 200, 0.10);
+}
+
+.google img {
+    width: 25px;
+    height: 25px;
+}
+
+.facebook {
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.10);
+    color: rgb(255, 255, 255);
+    border-radius: 6px;
+    font-size: 16pt;
+    font-weight: bold;
+    font-family: Arial;
+    margin-top: 10px;
+    margin-left: 50px;
+    cursor: pointer;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 42px;
+    padding-right: 42px;
+    text-decoration: none;
+}
+
+.facebook:hover {
+    background-color: rgba(200, 200, 200, 0.10);
+}
+
+.facebook:active {
+    background-color: rgba(200, 200, 200, 0.10);
+}
+
+.facebook img {
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+}
