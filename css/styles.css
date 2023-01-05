@@ -49,6 +49,7 @@ body {
     top: 50%;
     left: 50%;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     padding: 60px;
 }
@@ -209,4 +210,93 @@ body {
     width: 20px;
     height: 20px;
     margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .bolaAzul {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 500px;
+        margin-right: 0;
+    }
+    
+    .bolaLaranja {
+        width: 100px;
+        height: 100px;
+        margin-top: 500px;
+        margin-left: 80;
+    }
+
+    .containerCard {
+        width: 150px;
+        height: 400px;
+        padding: 20px;
+        width: 250px;
+        height: 480px;
+    }
+
+    .containerCard h3 {
+        font-size: 1.5rem;
+    }
+
+    .labelInput {
+        font-size: 0.8rem;
+    }
+    
+    .containerCard input {
+        font-size: 1rem;
+        height: 40px;
+    }
+
+    .labelCheckbox span {
+        width: 10px;
+        height: 10px;
+    }
+    
+    .labelManterLogado {
+        font-size: 0.8rem;
+    }
+
+    .logIn {
+        height: 35px;
+        margin-top: 20px;
+        border-radius: 5px;
+        font-size: 1rem;
+        font-weight: 800;
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+
+    .containerCadastro p {
+        font-size: 0.7rem;
+    }
+    
+    .cadastro {
+        font-size: 0.7rem;
+    }
+
+    .google {
+        padding: 10px 0;
+        width: 150px;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .facebook {
+        padding: 10px 0;
+        width: 150px;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .google img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .facebook img {
+        width: 15px;
+        height: 15px;
+    }
+
 }
