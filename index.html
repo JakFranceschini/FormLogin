@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -10,41 +10,31 @@
 </head>
 
 <body>
-    <div class="conteudo">
-        <div class="bola_azul"></div>
-        <div class="bola_laranja"></div>
-    </div>
-    <form class="bloco_informacoes">
-
+    <div class="bolaAzul"></div>
+    <div class="bolaLaranja"></div>
+    <form class="containerCard">
         <h3>Login Aqui</h3>
-
-        <label for="usuario" class="label_input">Usuario</label>
-            <input type="text" placeholder="Email ou Telefone" id="usuario">
-
-        <label for="senha" class="label_input">Senha</label>
-            <input type="password" placeholder="Digite a Senha" id="senha">
-        
-        <div class="conteudo_checkbox">
-            <label class="label_checkbox">
+        <label for="usuario" class="labelInput">Usuario</label>
+        <input type="text" placeholder="Email ou Telefone" id="usuario">
+        <label for="senha" class="labelInput">Senha</label>
+        <input type="password" placeholder="Digite a Senha" id="senha">
+        <div class="containerCheckbox">
+            <label class="labelCheckbox">
                 <input type="checkbox"/>
                 <span></span>
             </label>
-            <label class="label_manter">Mantenha-me logado.</label>
+            <label class="labelManterLogado">Mantenha-me logado.</label>
         </div>
-
-        <button class="log_in">Log In</button>
-
-        <div class="bloco_cadastro">
+        <button class="logIn">Log In</button>
+        <div class="containerCadastro">
             <p>Ainda não tem cadastro?</p>
             <a class="cadastro" href="">Clique aqui.</a>
         </div>
-
-        <a href="" class="google"><img src="/img/icone_google.png"> Google </a>
-        <a href="" class="facebook"><img src="/img/icone_facebook.png">Facebook</a>
-
+        <div class="containerBotoes">
+            <a href="" class="google"><img src="/img/iconeGoogle.png"/>Google</a>
+            <a href="" class="facebook"><img src="/img/iconeFacebook.png"/>Facebook</a>
+        </div>
     </form>
-    
-    <script src="/js/scripts.js"></script>
 </body>
 
 </html>
