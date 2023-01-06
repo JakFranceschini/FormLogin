@@ -217,14 +217,16 @@ body {
         width: 100px;
         height: 100px;
         margin-bottom: 500px;
-        margin-right: 0;
+        margin-right: 260px;
+        position: fixed;
     }
     
     .bolaLaranja {
         width: 100px;
         height: 100px;
         margin-top: 500px;
-        margin-left: 80;
+        margin-left: 260px;
+        position: fixed;
     }
 
     .containerCard {
