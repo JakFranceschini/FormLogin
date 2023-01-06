@@ -214,27 +214,25 @@ body {
 
 @media screen and (max-width: 768px) {
     .bolaAzul {
-        width: 100px;
-        height: 100px;
-        margin-bottom: 500px;
-        margin-right: 260px;
+        width: 80px;
+        height: 80px;
+        margin-bottom: 430px;
+        margin-right: 280px;
         position: fixed;
     }
     
     .bolaLaranja {
-        width: 100px;
-        height: 100px;
-        margin-top: 500px;
-        margin-left: 260px;
+        width: 80px;
+        height: 80px;
+        margin-top: 430px;
+        margin-left: 268px;
         position: fixed;
     }
 
     .containerCard {
-        width: 150px;
-        height: 400px;
         padding: 20px;
         width: 250px;
-        height: 480px;
+        height: 400px;
         position: fixed;
     }
 
@@ -266,8 +264,7 @@ body {
         border-radius: 5px;
         font-size: 1rem;
         font-weight: 800;
-        margin-bottom: 20px;
-        margin-top: 40px;
+        margin-bottom: 10px;
     }
 
     .containerCadastro p {
@@ -279,14 +276,14 @@ body {
     }
 
     .google {
-        padding: 10px 0;
+        padding: 8px 0;
         width: 150px;
         text-align: center;
         font-size: 1rem;
     }
 
     .facebook {
-        padding: 10px 0;
+        padding: 8px 0;
         width: 150px;
         text-align: center;
         font-size: 1rem;
